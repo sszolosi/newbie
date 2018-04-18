@@ -1,6 +1,6 @@
 # Repository for learning GIT
 
-##Tasks:
+## Tasks:
 1. **First Task**
      - [x] Edit README.md file
 	   - [x] Commit
