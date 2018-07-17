@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body{
+	font-family: 'Roboto Mono', monospace;
+	font-color:#777;
+}
+#join-team{
+	float:right;
+	padding-top:10px;
+	margin-left: 100px;
+}
+
+.line{
+	border-bottom:1px solid rgb(220,220,220);
+}
+
+.col-sm-3.divider{
+	border-left:1px solid #c3c3c3;
+	margin-top:7px;
+	margin:7px;
+	float:right;
+
+}
+.divider{
+	margin-top:10px;
+
+}
+.button-background{
+	background-color: #f8f8f8;
+	border: none;
+	font-size: 14px;
+	padding: 15px 20px;
+}
