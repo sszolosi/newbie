@@ -1,33 +1,75 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
-
-body{
-	font-family: 'Roboto Mono', monospace;
-	font-color:#777;
-}
-#join-team{
-	float:right;
-	padding-top:10px;
-	margin-left: 100px;
+body {
+  font-family: 'Roboto Mono', monospace;
+  font-color: #777;
 }
 
-.line{
-	border-bottom:1px solid rgb(220,220,220);
+#join-team {
+  float: right;
+  padding-top: 10px;
+  margin-left: 100px;
 }
 
-.col-sm-3.divider{
-	border-left:1px solid #c3c3c3;
-	margin-top:7px;
-	margin:7px;
-	float:right;
-
+.line {
+  border-bottom: 1px solid rgb(220, 220, 220);
 }
-.divider{
-	margin-top:10px;
 
+.col-sm-3.divider {
+  border-left: 1px solid #c3c3c3;
+  margin-top: 7px;
+  margin: 7px;
+  float: right;
 }
-.button-background{
-	background-color: #f8f8f8;
-	border: none;
-	font-size: 14px;
-	padding: 15px 20px;
+
+.divider {
+  margin-top: 10px;
+}
+
+.button-background {
+  background-color: #f8f8f8;
+  border: none;
+  font-size: 14px;
+  padding: 15px 20px;
+}
+
+.businessman {
+  width: 100%;
+}
+
+.smith {
+  display: block;
+}
+
+.smith p {
+  font-size: 12px;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-15%, -40%);
+}
+
+.video-button {
+  background-color: #9ACD32;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  color: white;
+}
+
+.video-button:hover {
+  background-color: #878071;
 }
