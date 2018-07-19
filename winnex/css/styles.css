@@ -4,7 +4,7 @@ body {
   font-color: #777;
 }
 
-#join-team {
+.join-team {
   float: right;
   padding-top: 10px;
   margin-left: 100px;
@@ -12,14 +12,16 @@ body {
 
 .line {
   border-bottom: 1px solid rgb(220, 220, 220);
+  width:100%
 }
 
+@media screen and (min-width: 770px) {
 .col-sm-3.divider {
   border-left: 1px solid #c3c3c3;
   margin-top: 7px;
   margin: 7px;
   float: right;
-}
+}}
 
 .divider {
   margin-top: 10px;
@@ -38,18 +40,20 @@ body {
 
 .smith {
   display: block;
+  position: relative;
 }
 
 .smith p {
   font-size: 12px;
 }
 
-.image-text {
+@media screen and (min-width: 770px) {
+  .image-text {
   position: absolute;
   top: 50%;
   left: 25%;
   transform: translate(-15%, -40%);
-}
+}}
 
 .video-button {
   background-color: #9ACD32;
@@ -60,6 +64,7 @@ body {
   padding: 10px;
   margin-top: 10px;
   font-size: 12px;
+
 }
 
 .arrow {
@@ -73,3 +78,21 @@ body {
 .video-button:hover {
   background-color: #878071;
 }
+
+.why-us{
+  display: block;
+  width:100%;
+  height:auto;
+  text-align: center;
+}
+
+.why-us h2,h6{
+  text-align: center;
+}
+@media screen and (min-width: 770px) {
+.why-us .aside{
+  width: 20%;
+  float: left;
+  height:auto;
+  margin: 5% 0 10% 10%;
+}}
